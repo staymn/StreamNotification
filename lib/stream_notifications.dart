@@ -15,7 +15,7 @@ class StreamNotifications {
       if (_notificationStream == null) {
         _notificationStream = _notificationEventChannel
             .receiveBroadcastStream()
-            .map((event) => _notificationEvent(event));
+            .map((event) => _notifica   tionEvent(event));
       }
       return _notificationStream;
     }
